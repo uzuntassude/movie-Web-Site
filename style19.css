@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pexels-cottonbro-studio-7181899.jpg);
+    background-repeat: no-repeat;
+    height: 120vh;
+    position: relative;
+    width: 100%;
+    background-size: 100%;
+
+
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(127, 171, 244, 0.6);
+    position: fixed;
+    width: 100%;
+}
+
+.logo img {
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 15px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px 40px;
+    float: right;
+    transition: all 1.1s ease-in-out;
+}
+
+.baslik {
+    width: 100%;
+    float: right;
+}
+
+.alticerik {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(127, 171, 244, 0.6);
+    position: absolute;
+    bottom: 0;
+}
+
+.genel {
+    position: relative;
+
+}
+
+.movie {
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.moviechild {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(92, 137, 185);
+    border-radius: 7px;
+
+}
+
+.moviechild img:hover {
+    transform: scale(1.1);
+
+
+}
+
+.moviechild img {
+    margin-top: 20px;
+    border-radius: 7px;
+    transition: all 1.1s ease-in-out;
+
+
+}
+
+.moviechild h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.moviechild p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+}
+
+li:hover {
+color: white;
+border-bottom: 1px solid red;
+}
